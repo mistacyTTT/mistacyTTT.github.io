@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="About.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
+    />
+  </head>
+  <body>
+    <header class="navbar">
+      <div class="logo">Ishya<span>.</span></div>
+      <nav class="nav-links">
+        <a href="../Home/Home.html">Home</a>
+        <a href="#">About</a>
+        <a href="../Portfolio/Portfolio.html">Portfolio</a>
+        <a href="../Contacts/Contacts.html">Contacts</a>
+      </nav>
+      <a href="../Contacts/Contacts.html" class="btn talk-btn">Let's Talk</a>
+
+      <div class="hamburger" aria-label="Menu">
+        <i class="fas fa-bars"></i>
+      </div>
+      
+    </header>
+
+    <section class="about-container">
+        <div class="about-content">
+            <h1>About me</h1>
+            <p>Hi, I'm Ishya. a web developer with just over a year of hands-on experience. This portfolio reflects my journey of building clean, functional interfaces while steadily deepening my understanding of how things work behind the scenes. I enjoy turning ideas into simple, thoughtful designs and writing code that brings them to life. Every project is a chance to learn more, improve, and create something meaningful.</p>
+            <a href="../Contacts/Contacts.html" class="hire-btn">Hire Me</a>
+        </div>
+    </section>
+
+    <script>
+        document.querySelector('.hamburger').onclick = () => {
+          document.querySelector('.nav-links').classList.toggle('active');
+        };
+      </script>
+
+    </body>
+</html>

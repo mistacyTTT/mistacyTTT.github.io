@@ -15,11 +15,16 @@
       <div class="logo">Ishya<span>.</span></div>
       <nav class="nav-links">
         <a href="#">Home</a>
-        <a href="#">About</a>
+        <a href="../About/About.html">About</a>
         <a href="../Portfolio/Portfolio.html">Portfolio</a>
         <a href="../Contacts/Contacts.html">Contacts</a>
       </nav>
-      <a href="#" class="btn talk-btn">Let's Talk</a>
+      <a href="../Contacts/Contacts.html" class="btn talk-btn">Let's Talk</a>
+
+      <div class="menu-toggle" onclick="toggleMenu()">
+        <i class="fas fa-bars"></i>
+      </div>
+      
     </header>
 
     <section class="middle">
@@ -34,24 +39,28 @@
           learning so far.
         </p>
         <div class="middle-buttons">
-          <a href="#" class="btn primary-btn">Hire me</a>
-          <a href="#" class="btn outline-btn">See Projects</a>
+          <a href="../Contacts/Contacts.html" class="btn primary-btn">Hire me</a>
+          <a href="../Portfolio/Portfolio.html" class="btn outline-btn">See Projects</a>
         </div>
         <div class="social-icons">
-          <a href="https://www.instagram.com/mistacy40/"
-            ><i class="fab fa-instagram"></i
-          ></a>
-          <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
-          <a href="#"><i class="fa-brands fa-twitter"></i></a>
+          <a href="https://www.instagram.com/mistacy40/"><i class="fab fa-instagram"></i></a>
+          <a href="https://github.com/mistacyTTT"><i class="fab fa-github"></i></a>
+          <a href="https://x.com/ISHYA40"><i class="fa-brands fa-twitter"></i></a>
         </div>
       </div>
 
       <div class="middle-image">
         <img
-          src="file:///C:/Users/A2/Documents/Vault/Portfolio/Profile.jpg"
+          src="Stacy.png"
           alt=""
         />
       </div>
     </section>
+
+    <script>
+      function toggleMenu() {
+        document.querySelector('.nav-links').classList.toggle('active');
+      }
+    </script>
   </body>
 </html>
